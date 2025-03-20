@@ -1,0 +1,607 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h0{
+    font-size: larger;
+
+}
+p{
+    font-family: "orbitron", sans-serif;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4c3c3c;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+}
+.navbar-heading{
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.navbar-right-items{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 2px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid antiquewhite; 
+    font-weight: bold;
+}
+
+
+
+
+/* footer */
+.footer-container{
+    background-color: rgb(37, 54, 45);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-container-columns{
+    margin-right: 160px;
+    margin-top: 15px;
+  }
+  
+  .footer-container-email-col{
+    width: 350px;
+  }
+  
+  .footer-container-social-apps{
+    color: white;
+    margin-right: 18px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  
+  .footer-stores-imgs{
+    height: 40px;
+    width: 100px;
+    margin-right: 9px;
+  }
+  
+  .footer-container-text{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-stores-div{
+    margin-top: 20px;
+  }
+  .footer-copyright{
+    background-color: rgb(37, 54, 45);
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+
+
+
+
+
+/* signin and signup page */
+.signin-container-main{
+    display: flex;
+    flex-direction: row;
+}
+ .left-container{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  .signin-email-input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+  }
+  .signin-inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signin-button{
+    width: 170px;
+    border: none;
+    color: white;
+    background-color: rgb(195, 67, 21);
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .right-container{
+    background-color: rgb(195, 67, 21);
+    width: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right-sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signin-signup-button{
+    border: solid;
+    border-width: 1px;
+  }
+  .signin-anchor-buttons{
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+
+/* mainpage top image and heading section */
+.section1-img{
+    width: 100%;
+    height: 700px;
+}
+.section1-heading{
+    text-align: center;
+    color: rgb(131, 35, 35);
+    font-family: cursive;
+}
+
+
+
+/* mainpage section 1 */
+.mainpage-section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mainpage-section-one-para{
+    width: 850px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .mainpage-section-one-heading{
+    color: #0d2937;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .get-started-btn{
+    border: none;
+    background-color: #0d2937;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+  }
+  
+
+
+
+
+/* mainpage section 2 */
+.mainpage-section-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  .mainpage-section2-text-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+  }
+  
+  .mainpage-section2-para{
+    width: 600px;
+    font-size: 22px;
+  }
+  
+  .mainpage-section2-heading{
+    font-size: 45px;
+    font-weight: bold;
+    color: #0d2937;
+  }
+  
+  .mainpage-section2-imgs{
+    height: 400px;
+    width: 500px;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+  .mainpage-section2-line{
+    width: 100px;
+    margin-left: 1px;
+    color: rgb(231, 7, 7);
+    border-style: solid;
+    border-width: 1px;
+  }
+
+
+
+
+
+/* categories page */
+.categories-top-section{
+    text-align: center;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 330px;
+    box-sizing: border-box;
+    background-image: url(categories-top-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.categories-top-section-para{
+    font-size: 18px;
+}
+
+.categories-top-section-heading{
+    color: #0d2937;
+}
+
+input[type="search"] {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px; 
+    border: 1px solid brown;
+    width: 300px;
+    background-color: rgb(34, 53, 34);
+    color: antiquewhite;
+}
+
+.categories-section2{
+    text-align: center;
+
+}
+
+.categories-section2-heading{
+    color: #0d2937;
+}
+
+
+
+.categories-section-three{
+    padding: 80px;
+}
+  
+.categories-section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.categories-section3-img-set1{
+    height: 400px;
+    width: 600px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+  
+.categories-section3-heading{
+    text-align: center;
+    padding: 30px;
+}
+  
+.categories-section3-cards-set1{
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    text-decoration: none;
+    width: 600px;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+  
+.categories-section3-text-div{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+  
+.categories-section3-blue-text{
+    color: #1c5775;
+}
+  
+.categories-section3-img-set2{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+.categories-section3-cards-set2{
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    text-decoration: none;
+    width: 400px;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+  
+.categories-section3-location-text{
+    color:rgb(78, 78, 78);
+}
+  
+.categories-section3-button{
+    background-color: #0d2937;
+    color: white;
+    border-radius: 25px;
+    height: 47px;
+    width: 240px;
+    border: none;
+    font-size: 15px;
+}
+
+.categories-section3-button-div{
+    text-align: center;
+}
+
+.categories-section4-heading{
+    text-align: center;
+    color: #0d2937;
+}
+
+.categories-section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.categories-section4-indian-card{
+    background-image: url("indian-cusine-bg-img.jpg");
+    height: 400px;
+    background-size: cover;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:antiquewhite;
+    border-radius: 10px;
+}
+.categories-indian-card-heading{
+    margin-left: 400px;
+    font-size: 30px;
+}
+.categories-section4-indian-button{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(234, 223, 207);
+    margin-left: 390px;
+}
+
+.categories-section4-italian-card{
+    background-image: url("italian-cusine-bg-img.jpg");
+    height: 400px;
+    background-size: cover;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:antiquewhite;
+    border-radius: 10px;
+}
+.categories-italian-card-heading{
+    margin-top: 240px;
+    font-size: 30px;
+}
+.categories-section4-italian-button{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(234, 223, 207);
+}
+
+.categories-section4-chinese-card{
+    background-image: url("chinese-cuisine-bg-img.jpg");
+    height: 400px;
+    background-size: cover;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:antiquewhite;
+    border-radius: 10px;
+}
+.categories-chinese-card-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.categories-section4-chinese-button{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(234, 223, 207);
+    margin-left: 240px;
+}
+
+.categories-section4-mexican-card{
+    background-image: url("mexican-cuisine-bg-img.jpg");
+    height: 400px;
+    background-size: cover;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:antiquewhite;
+    border-radius: 10px;
+}
+.categories-mexican-card-heading{
+    margin-top: 240px;
+    font-size: 30px;
+}
+.categories-section4-mexican-button{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(234, 223, 207);
+}
+
+
+
+
+
+
+/* Indian Cuisine Page */
+.indian-top-section{
+    background-image: url("indian-cusine-bg-img.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.indian-top-section-heading{
+    color: antiquewhite;
+    margin-left: 900px;
+    font-size: 60px;
+}
+
+.indian-top-section-para{
+    color: antiquewhite;
+    width: 700px;
+    text-align: center;
+    margin-left: 700px;
+    font-size: 20spx
+}
+
+.indian-back-button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.indian-back-button{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #0d2937;
+}
+
+
+
+
+
+
+/* Indian cuisine chicken biryani page */
+.indian-chicken-biryani-img-div{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+
+.indian-chicken-biryani-img{
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.indian-chicken-biryani-heading{
+    color: #0d2937;
+}
+
+.indian-chicken-biryani-para{
+    width: 600px;
+    font-size: 20px
+}
+
+.indian-chicken-biryani-text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.indian-chicken-left-container{
+    width: 600px;
+}
+
+.indian-chicken-biryani-main-text{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pre-tag-text{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cheerful-text-div{
+    display: flex;
+    justify-content: center;
+    background-color:#0d2937;
+}
+
+.cheerful-text{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heart-icon{
+    height: 25px;
+    width: 25px;
+    margin-left: 330px;
+}
+
+.categories-item-heading{
+    text-decoration: none;
+    color: #0d2937;
+}

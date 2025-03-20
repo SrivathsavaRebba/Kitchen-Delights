@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet"/> 
+    </head>
+    <body>
+
+
+        <nav class="navbar">
+            <div>
+                <a href="Main.html" class="navbar-heading"><h0>Kitchen Delights</h0></a>
+            </div>
+            <div style="display: flex;">
+                <a href="Main.html" class="navbar-right-items"><p>Home</p></a>
+                <a href="Main.html" class="navbar-right-items"><p>Categories</p></a>
+                <a href="#" class="navbar-right-items"><p>Favourites</p></a>
+                <a href="./signin.html" class="navbar-right-items active"><p>Sign in</p></a>
+            </div>
+        </nav>
+
+
+        <div class="d-flex signin-container-main">
+
+            <div class="d-flex flex-column justify-content-center right-container">
+                <div class="right-sub-container">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="signin-signup-button signin-button"><a class="signin-anchor-buttons" href="signin.html">SIGN IN</a></button>
+                </div>
+            </div>
+
+
+            <div class="left-container d-flex flex-column justify-content-center">
+                <h1 class="text-center">Create Account</h1>
+                <div class="signin-inputs-container">
+                    <input class="signin-email-input" id="name" type="text" placeholder="Enter Name"/><br/>
+                    <input class="signin-email-input" id="email" type="email" placeholder="Enter Email"/><br/>
+                    <input class="signin-email-input" id="pass" type="password" placeholder="Enter Password"/><br/>
+                    <input class="signin-email-input" id="conpass" type="password" placeholder="Confirm Password"/><br/>
+                    <button class="signin-button" onclick="validateSignUp()">SIGN UP</button>
+                </div>
+            </div>
+            
+
+
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
