@@ -536,7 +536,7 @@ input[type="search"] {
 
 
 /* Indian cuisine chicken biryani page */
-.indian-chicken-biryani-img-div{
+.each-recipe-img-div{
     text-align: center;
     padding-top: 80px;
     padding-bottom: 40px;
@@ -545,22 +545,22 @@ input[type="search"] {
     padding-left: 100px;
 }
 
-.indian-chicken-biryani-img{
+.each-recipe-img{
     height: 500px;
     width: 600px;
     border-radius: 10px;
 }
 
-.indian-chicken-biryani-heading{
+.each-recipe-heading{
     color: #0d2937;
 }
 
-.indian-chicken-biryani-para{
+.each-recipe-para{
     width: 600px;
     font-size: 20px
 }
 
-.indian-chicken-biryani-text-div{
+.each-recipe-text-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -568,11 +568,11 @@ input[type="search"] {
     padding-left: 100px;
 }
 
-.indian-chicken-left-container{
+.each-recipe-left-container{
     width: 600px;
 }
 
-.indian-chicken-biryani-main-text{
+.each-recipe-main-text{
     padding-left: 100px;
     display: flex;
     flex-direction: row;
