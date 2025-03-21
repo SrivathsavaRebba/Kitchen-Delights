@@ -15,7 +15,7 @@ function validateSignIn() {
     }
 
     if (confirm("Logged in Successfully")) {
-        window.location.href = "main.html"; 
+        window.location.href = "Main.html"; 
         return true;
     }
 
@@ -50,7 +50,7 @@ function validateSignUp(){
         return false;
     }
     if (confirm("Account Created Successfully 🎉🥳")) {
-        window.location.href = "main.html"; 
+        window.location.href = "Main.html"; 
         return true;
     }
 
